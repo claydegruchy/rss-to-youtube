@@ -64,9 +64,9 @@ for entry in feed["entries"]:
     completed_file = output_dir + title + ".mkv"
     convert(audio_file, image_file, completed_file)
 
-
+print    ("\n\n=== Creating summary: ===")
 for entry in feed["entries"]:
-    print("=========================================")
+    print("=========================")
     title = entry["title"]
     summary = striphtml(entry['summary'])
 
