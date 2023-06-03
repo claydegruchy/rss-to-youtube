@@ -1,3 +1,10 @@
+*.mp4
+*.mkv
+*.mp3
+*.jpg
+*.jpeg
+
+
 
 # Created by https://www.gitignore.io/api/node
 # Edit at https://www.gitignore.io/?templates=node
