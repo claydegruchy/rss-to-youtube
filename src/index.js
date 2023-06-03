@@ -15,7 +15,10 @@ import fs from 'fs';
 import Parser from 'rss-parser';
 const parser = new Parser();
 
-// open the rss feed with Parser
+
+
+
+
 
 
 const getFeed = async () => {
